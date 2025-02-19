@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_lv_all_user_details"
+        app:cardBackgroundColor="@color/light_blue"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/rl_5">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/rl_1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/civ_my_profile_cirle_image"
+                    android:src="@drawable/my_profile">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_my_profile_name"
+                    android:text=""
+                    android:textSize="24dp"
+                    android:layout_toRightOf="@+id/civ_my_profile_cirle_image"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_1"
+                android:padding="10dp"
+                android:id="@+id/rl_2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_my_profile_mobile_no"
+                    android:text="+91-"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="22dp"
+                    android:drawableStart="@drawable/ic_baseline_phone_24"
+                    android:drawableTint="@color/grey"
+                    android:drawablePadding="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_my_profile_email_id"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="22dp"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawableTint="@color/grey"
+                    android:drawablePadding="15dp"
+                    android:layout_below="@+id/tv_my_profile_mobile_no">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_my_profile_username"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="22dp"
+                    android:drawableStart="@drawable/ic_baseline_lock_24"
+                    android:drawableTint="@color/grey"
+                    android:drawablePadding="15dp"
+                    android:layout_below="@+id/tv_my_profile_email_id"
+                    >
+
+                </TextView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

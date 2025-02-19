@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddStudentsActivity">
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:boxStrokeColor="@color/dark_blue"
+        app:hintTextColor="@color/dark_blue"
+        app:startIconTint="@color/dark_blue"
+        IconTint="@color/dark_blue">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_add_student_roll_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Roll Number"
+            android:inputType="number"
+            android:textSize="17dp"
+            android:textColor="@color/dark_blue"
+            android:textStyle="bold">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:boxStrokeColor="@color/dark_blue"
+        app:hintTextColor="@color/dark_blue"
+        app:startIconTint="@color/dark_blue"
+        IconTint="@color/dark_blue"
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_add_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:inputType="text"
+            android:textSize="17dp"
+            android:textColor="@color/dark_blue"
+            android:textStyle="bold">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:boxStrokeColor="@color/dark_blue"
+        app:hintTextColor="@color/dark_blue"
+        app:startIconTint="@color/dark_blue"
+        IconTint="@color/dark_blue"
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_add_student_sem_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Sem/Year"
+            android:inputType="text"
+            android:textSize="17dp"
+            android:textColor="@color/dark_blue"
+            android:textStyle="bold">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/btn_add_students"
+        android:text="Add Student"
+        android:background="@drawable/blue_bg"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

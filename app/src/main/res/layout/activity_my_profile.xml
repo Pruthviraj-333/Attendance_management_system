@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/rl_1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/civ_my_profile_cirle_image"
+            android:src="@drawable/my_profile">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_my_profile_update"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/civ_my_profile_cirle_image"
+            android:background="@drawable/blue_bg"
+            android:text="Update Profile picture"
+            android:textColor="@color/white">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <ImageButton
+            style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="wrap_content"
+            android:id="@+id/imgbtn_my_profile_edit"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/civ_my_profile_cirle_image"
+            android:layout_alignBottom="@+id/civ_my_profile_cirle_image"
+            android:backgroundTint="@color/dark_blue"
+            android:src="@drawable/ic_baseline_edit_24">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_my_profile_name"
+            android:text=""
+            android:textSize="24dp"
+            android:layout_toRightOf="@+id/civ_my_profile_cirle_image"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_1"
+        android:id="@+id/rl_2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_my_profile_mobile_no"
+            android:text="+91-"
+            android:textSize="15dp"
+            android:layout_marginLeft="22dp"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:drawableTint="@color/grey"
+            android:drawablePadding="15dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_my_profile_email_id"
+            android:text=""
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="22dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawableTint="@color/grey"
+            android:drawablePadding="15dp"
+            android:layout_below="@+id/tv_my_profile_mobile_no">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_my_profile_username"
+            android:text=""
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="22dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableTint="@color/grey"
+            android:drawablePadding="15dp"
+            android:layout_below="@+id/tv_my_profile_email_id"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_3"
+        android:layout_below="@+id/rl_2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_my_profile_my_info"
+                android:text="My Info"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_baseline_info_24"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/dark_blue"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_my_profile_my_enrolled_classes"
+                android:text="My Enrolled classes"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_baseline_assignment_turned_in_24"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/dark_blue"
+                android:layout_marginTop="18dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_my_profile_my_teaching_classes"
+                android:text="My Teaching Classes"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_baseline_co_present_24"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/dark_blue"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:layout_marginTop="18dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_my_profile_my_qr_code"
+                android:text="My QR code"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_baseline_qr_code_24"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/dark_blue"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:layout_marginTop="18dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_my_profile_security"
+                android:text="Security"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_baseline_security_24"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/dark_blue"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:layout_marginTop="18dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_my_profile_help"
+                android:text="Help"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_baseline_help_outline_24"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/dark_blue"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:layout_marginTop="18dp">
+
+            </TextView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_4"
+        android:layout_below="@+id/rl_3">
+
+        <TextView
+            android:id="@+id/tv_my_profile_log_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_power_settings_new_24"
+
+            android:drawablePadding="16dp"
+            android:drawableTint="@color/red"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Log out"
+            android:textColor="@color/red"
+            android:textSize="22dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb_my_profile_Progress"
+        android:foregroundTint="@color/dark_blue"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

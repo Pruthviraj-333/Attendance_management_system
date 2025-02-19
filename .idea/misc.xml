@@ -1,0 +1,89 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/blue_bg.xml" value="0.1935" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/bottom_dialog_bg.xml" value="0.216" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/custom_input.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/custom_lock_icon.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/custom_username_icon.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/dark_light_blue_bg.xml" value="0.1935" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.216" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_assignment_turned_in_24.xml" value="0.216" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.145" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml" value="0.2155" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1935" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.16" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/icon_selector.xml" value="0.1935" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/orange_screenbg.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/orangebg.xml" value="0.1935" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/purple_skyblue_bg.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/drawable/screenbg.xml" value="0.177" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_add_students.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_bottam.xml" value="0.2" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_classroom.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_classroom2.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_create_classroom.xml" value="0.2359375" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_create_session.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_get_all_user_details.xml" value="0.264" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_join_classroom.xml" value="0.2359375" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_my_info.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_my_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_my_qr_code.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_normal.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_register.xml" value="0.2791005291005291" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_scan_qrcode.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_session.xml" value="0.2359375" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/activity_splash.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/appbar.xml" value="0.18671875" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/bootomsheetlayout.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/bootomsheetlayout_create_session.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_attendance.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_attendance2.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_people.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_people2.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/fragment_slideshow.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/headerfile.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/home_by_default.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/lv_classrooms.xml" value="0.264" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/lv_get_all_session_info.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/lv_get_all_students_details.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/lv_get_all_user_details.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/lv_sessions.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/recycler_view_item.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/layout/rv_classrooms.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/menu/classroom_menu.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/menu/main.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/menu/my_profile_menu.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/menu/session_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/menu/side_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/xml/navigation/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/xml/navigation/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/app/src/main/res/xml/navigation/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthviraj/AndroidStudioProjects/SampleProject/navigation/src/main/res/layout/content_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

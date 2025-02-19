@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dark_light_blue_bg"
+    >
+
+    <ImageView
+        android:id="@+id/iv_login_logo"
+        android:layout_width="500dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:src="@drawable/smart_attendance">
+
+    </ImageView>
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_1_content_main">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_2_content_main">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't see your existing classes?"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:layout_marginTop="250dp"
+                android:id="@+id/tv_content_main"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_try_another_account"
+                android:layout_below="@+id/tv_content_main"
+                android:layout_centerInParent="true"
+                android:text="Try another account"
+                android:textColor="@color/dark_blue"
+                android:backgroundTint="@color/white"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_2_content_main"
+            android:id="@+id/rl_3_content_main">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create or join your first class "
+                android:layout_marginTop="230dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="50dp"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

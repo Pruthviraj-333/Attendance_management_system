@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/get_all_user_details"
+        android:orderInCategory="100"
+        android:title="Get All User Details"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/my_profile"
+        android:orderInCategory="100"
+        android:title="My Profile"
+        android:iconTint="@color/white"
+        android:icon="@drawable/custom_username_icon"
+        app:showAsAction="always" />
+</menu>
